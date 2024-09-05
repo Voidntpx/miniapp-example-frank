@@ -18,8 +18,9 @@ export default function Home() {
       </div>
       {/*Example of how to use the functions from the lib/frontend/index.ts*/}
       {/* uncomment the button below to enable exchange token button */}
-      {/* <button
+      <button
         onClick={() =>
+          // console.log("hi")
           initAuth(
             (result) => {
               // add logic to handle accessToken here
@@ -33,7 +34,7 @@ export default function Home() {
         }
       >
         Exchange Token
-      </button> */}
+      </button>
       {/* uncomment the button below to enable get customer profile button */}
       {/* <button
         onClick={async () => {
