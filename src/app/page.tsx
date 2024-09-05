@@ -36,7 +36,7 @@ export default function Home() {
         Exchange Token
       </button>
       {/* uncomment the button below to enable get customer profile button */}
-      {/* <button
+      <button
         onClick={async () => {
           const result = await getCustomerProfile(
             sessionStorage.getItem("accessToken") ?? ""
@@ -45,7 +45,8 @@ export default function Home() {
         }}
       >
         Get Customer Profile
-      </button> */}
+      </button>
+      
       {/* uncomment the button below to enable payment button */}
       {/* <button
         onClick={() =>
