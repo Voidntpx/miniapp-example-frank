@@ -14,7 +14,7 @@ export default function Home() {
         alt="Mini App logo"
       />
       <div className="flex flex-col justify-center items-center pt-14">
-        <h1 className="text-3xl font-semibold">Welcome to Mini App</h1>
+        <h1 className="text-3xl font-semibold">Welcome to Mini App v1.0.0</h1>
       </div>
       {/*Example of how to use the functions from the lib/frontend/index.ts*/}
       {/* uncomment the button below to enable exchange token button */}
